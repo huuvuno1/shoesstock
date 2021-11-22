@@ -14,8 +14,7 @@ public class Addtocard extends AppCompatActivity {
         setContentView(R.layout.activity_addtocard);
         ImageButton imgback = findViewById(R.id.imageButton);
         imgback.setOnClickListener(v ->{
-            Intent intent = new Intent(Addtocard.this,HomeActivity.class);
-            startActivity(intent);
+            finish();
         } );
     }
 }

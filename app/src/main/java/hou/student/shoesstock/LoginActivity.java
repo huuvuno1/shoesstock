@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import hou.student.shoesstock.activities.MainVActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(intent);
         });
         login.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+            Intent intent = new Intent(LoginActivity.this, MainVActivity.class);
             startActivity(intent);
         });
         dky.setOnClickListener(v -> {

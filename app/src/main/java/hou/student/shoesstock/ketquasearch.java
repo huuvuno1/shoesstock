@@ -22,8 +22,7 @@ public class ketquasearch extends AppCompatActivity {
         ImageButton back = findViewById(R.id.back);
 
         back.setOnClickListener(v -> {
-            Intent signup = new Intent(ketquasearch.this, HomeActivity.class);
-            startActivity(signup);
+            finish();
         });
         TextView ketqua_layout = findViewById(R.id.textView21);
         ketqua_layout.setOnClickListener(v -> {

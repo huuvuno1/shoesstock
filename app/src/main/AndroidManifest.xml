@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoesStock">
         <activity
+            android:name=".activities.MainVActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".boloc"
             android:exported="false" />
         <activity
@@ -28,13 +37,13 @@
             android:name=".tips"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
             android:name=".SignupActivity"
             android:exported="false" />
         <activity
             android:name=".nike"
+            android:exported="false" />
+        <activity
+            android:name=".chitiettips"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
