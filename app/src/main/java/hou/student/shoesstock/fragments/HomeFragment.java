@@ -35,6 +35,9 @@ import hou.student.shoesstock.adapters.ProductAdapter;
 import hou.student.shoesstock.ketquasearch;
 import hou.student.shoesstock.model.SuggestProducts;
 import hou.student.shoesstock.model.Product;
+import hou.student.shoesstock.spkhuyenmai;
+import hou.student.shoesstock.spmoi;
+import hou.student.shoesstock.spphobien;
 import hou.student.shoesstock.utils.MockupDatabase;
 
 public class HomeFragment extends Fragment {
@@ -127,6 +130,11 @@ public class HomeFragment extends Fragment {
             Intent intent = new Intent(getContext(), hou.student.shoesstock.boloc.class);
             startActivity(intent);
         });
+
+        view.findViewById(R.id.linearLayoutSale).setOnClickListener(v -> startActivity(new Intent(view.getContext(), spkhuyenmai.class)));
+        view.findViewById(R.id.txtXemKM).setOnClickListener(v -> startActivity(new Intent(view.getContext(), spkhuyenmai.class)));
+        view.findViewById(R.id.txtXemNew).setOnClickListener(v -> startActivity(new Intent(view.getContext(), spmoi.class)));
+        view.findViewById(R.id.txtXemPB).setOnClickListener(v -> startActivity(new Intent(view.getContext(), spphobien.class)));
 
         EditText textSearch = view.findViewById(R.id.textSearch);
         textSearch.setOnEditorActionListener(new TextView.OnEditorActionListener() {

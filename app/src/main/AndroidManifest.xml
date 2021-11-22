@@ -34,22 +34,23 @@
             android:name=".Chitietsanpham"
             android:exported="false" />
         <activity
-            android:name=".tips"
-            android:exported="false" />
-        <activity
             android:name=".SignupActivity"
-            android:exported="false" />
-        <activity
-            android:name=".nike"
             android:exported="false" />
         <activity
             android:name=".chitiettips"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".spkhuyenmai"
             android:exported="false" />
         <activity
-            android:name=".chitietgoiy1"
+            android:name=".spphobien"
+            android:exported="false" />
+        <activity
+            android:name=".spmoi"
+            android:exported="false" />
+        <activity
+
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".footer"
