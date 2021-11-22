@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".boloc">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="20dp"
+        android:text="Quay lại"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="51dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Bộ lọc"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Hãng giày"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Adidas (10)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Bata (5)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Converse (5)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/giaylotto"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Lotto (8)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/giaynike"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Nike (10)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/giaypuma"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="Puma (10)"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/gachngang" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Khoảng giá"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#F6F6F6"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextNumber"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="-" />
+
+                <EditText
+                    android:id="@+id/editTextNumber2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="300k -500k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="500k-1000k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="12dp"
+                app:backgroundTint="#F6F6F6" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="116dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:text="1000k-2000k"
+            android:textAllCaps="false"
+            android:textColor="#2E2E2E"
+            android:textSize="12dp"
+            app:backgroundTint="#F6F6F6" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/gachngang" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Đánh giá"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="10dp"
+                app:backgroundTint="#F6F6F6"
+                app:srcCompat="@drawable/star5boloc" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="10dp"
+                app:backgroundTint="#F6F6F6"
+                app:srcCompat="@drawable/star4boloc" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="10dp"
+                app:backgroundTint="#F6F6F6"
+                app:srcCompat="@drawable/star3boloc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imagebutton11"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="10dp"
+                app:backgroundTint="#F6F6F6"
+                app:srcCompat="@drawable/star2boloc" />
+
+            <ImageButton
+                android:id="@+id/imagebutton12"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:text="0-300k"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="10dp"
+                app:backgroundTint="#F6F6F6"
+                app:srcCompat="@drawable/star1boloc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="110dp">
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="110dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#5363F4"
+                android:text="Thiết lập lại" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#5363F4"
+                android:text="Áp dụng" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

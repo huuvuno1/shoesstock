@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".danhgia">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="20dp"
+        android:text="Đánh giá"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="vanthanh_2121" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star5" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Chất lượng sản phẩm tuyệt vời, giày đi rất êm chân, thoải mái sẽ ghé lại mua lần sau" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="03-11-2021 6:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan1"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="haitu_1513" />
+
+                    <ImageView
+                        android:id="@+id/danhgia1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star4" />
+
+                    <TextView
+                        android:id="@+id/binhluan1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Chất lượng sản phẩm tuyệt vời, nhưng giao hàng hơi lâu hy vọng lần sau cải thiện hơn" />
+
+                    <TextView
+                        android:id="@+id/ngaythang1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01-11-2021 10:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan2"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="haitu_1513" />
+
+                    <ImageView
+                        android:id="@+id/danhgia2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star4" />
+
+                    <TextView
+                        android:id="@+id/binhluan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Lỡ mua cỡ hơi rộng nhưng không sao chất lượng vẫn rất tốt" />
+
+                    <TextView
+                        android:id="@+id/ngaythang2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01-11-2021 10:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan3"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="dinhtoan_vt" />
+
+                    <ImageView
+                        android:id="@+id/danhgia3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star3" />
+
+                    <TextView
+                        android:id="@+id/binhluan3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Shop giao sai size giày cho tôi nhưng được đổi trả miễn phí và shop nhiệt tình" />
+
+                    <TextView
+                        android:id="@+id/ngaythang3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01-11-2021 10:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan4"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sontung_0507" />
+
+                    <ImageView
+                        android:id="@+id/danhgia4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star5" />
+
+                    <TextView
+                        android:id="@+id/binhluan4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Chất lượng sản phẩm tuyệt vời, giày đi rất êm chân, thoải mái sẽ ghé lại mua lần sau" />
+
+                    <TextView
+                        android:id="@+id/ngaythang4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01-11-2021 10:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan5"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="vanthanh_2121" />
+
+                    <ImageView
+                        android:id="@+id/danhgia5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star5" />
+
+                    <TextView
+                        android:id="@+id/binhluan5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Chất lượng sản phẩm tuyệt vời, giày đi rất êm chân, thoải mái sẽ ghé lại mua lần sau" />
+
+                    <TextView
+                        android:id="@+id/ngaythang5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="03-11-2021 6:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/anhtaikhoan6"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    app:srcCompat="@drawable/avatar1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tentaikhoan6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="vanthanh_2121" />
+
+                    <ImageView
+                        android:id="@+id/danhgia6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/star5" />
+
+                    <TextView
+                        android:id="@+id/binhluan6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Chất lượng sản phẩm tuyệt vời, giày đi rất êm chân, thoải mái sẽ ghé lại mua lần sau" />
+
+                    <TextView
+                        android:id="@+id/ngaythang6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="03-11-2021 6:45"
+                        android:textColor="#939393"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/linegach8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:srcCompat="@drawable/gachngang" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Không còn đánh giá nào" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/drawable/button_bg_rounded_corners.xml" value="0.21666666666666667" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/drawable/ic_back.xml" value="0.20260416666666667" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_addtocard.xml" value="0.3333333333333333" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_boloc.xml" value="0.16666666666666666" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_chitietsanpham.xml" value="0.19853479853479852" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_chitiettips.xml" value="0.16666666666666666" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_danhgia.xml" value="0.3333333333333333" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_ketqua.xml" value="0.16666666666666666" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_main.xml" value="0.12001811594202899" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_result_search.xml" value="0.12001811594202899" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_signup.xml" value="0.12001811594202899" />
+        <entry key="..\:/Downloads/ShoesStock - Copy/app/src/main/res/layout/activity_tips.xml" value="0.2711234911792015" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/abcxyz.xml" value="0.32653985507246375" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_addtocard.xml" value="0.32653985507246375" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_adidas.xml" value="0.32653985507246375" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_bata.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_boloc.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_chitietsanpham.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_chitiettips.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_dangky.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_dangnhap.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_danhgia.xml" value="0.17617753623188406" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_home.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_ketqua.xml" value="0.25" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_ketquasearch.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_login.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_lotto(1).xml" value="0.13269927536231885" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_lotto.xml" value="0.13269927536231885" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_nike.xml" value="0.25" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_puma.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_quenmk.xml" value="0.17617753623188406" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_sanphamkhuyenmai.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_sanphammoi.xml" value="0.17617753623188406" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_sanphamphobien.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_signup.xml" value="0.20885416666666667" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/activity_tips.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/chitietgoiy1.xml" value="0.371875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/chitietgoiy2.xml" value="0.32653985507246375" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/chitietgoiy3(1).xml" value="0.21875" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/chitietgoiy3.xml" value="0.32653985507246375" />
+        <entry key="..\:/GiaLap/ShoesStock-20211121T080258Z-001/ShoesStock/app/src/main/res/layout/footer.xml" value="0.17617753623188406" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_addtocard.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_adidas.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_bata.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_boloc.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_chitietsanpham.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_chitiettips.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_danhgia.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_ketqua.xml" value="0.25" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_lotto.xml" value="0.33" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_nike.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_puma.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_result_search.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_sanphamkhuyenmai.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_sanphammoi.xml" value="0.2776268115942029" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_sanphamphobien.xml" value="0.36666666666666664" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_signup.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock - Copy/app/src/main/res/layout/activity_tips.xml" value="0.20520833333333333" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/bo.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/boanh.xml" value="0.23333333333333334" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/border_image.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/border_search.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/botron.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/botron_edittext.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/bovien.xml" value="0.26614583333333336" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/gachchan.xml" value="0.23333333333333334" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/search1.xml" value="0.23333333333333334" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/vien.xml" value="0.23333333333333334" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_login.xml" value="0.1585144927536232" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_main.xml" value="0.1585144927536232" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_result_search.xml" value="0.1585144927536232" />
+        <entry key="..\:/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_signup.xml" value="0.1585144927536232" />
+        <entry key="..\:/ShoesStock/app/src/main/res/drawable/botron_edittext.xml" value="0.2203125" />
+        <entry key="..\:/ShoesStock/app/src/main/res/drawable/search1.xml" value="0.2203125" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_addtocard.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_adidas.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_boloc.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_chitietsanpham.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_chitiettips.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_dangky.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_dangnhap.xml" value="0.14673913043478262" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_danhgia.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_ketqua.xml" value="0.16666666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_ketquasearch.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_nike.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_puma.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_quenmk.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_sanphamkhuyenmai.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/activity_tips.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/chitietgoiy1.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/chitietgoiy2.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/chitietgoiy3.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/chitietgoiy4.xml" value="0.15306520890277237" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/dangnhap.xml" value="0.20416666666666666" />
+        <entry key="..\:/ShoesStock/app/src/main/res/layout/kqsearch.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/border_search.xml" value="0.2203125" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/drawable/search1.xml" value="0.2203125" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_dangky.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_result_search.xml" value="0.22" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/dangnhap.xml" value="0.2" />
+        <entry key="..\:/Users/PucK/Downloads/ShoesStock-Copy/ShoesStock - Copy/app/src/main/res/layout/kqsearch.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
